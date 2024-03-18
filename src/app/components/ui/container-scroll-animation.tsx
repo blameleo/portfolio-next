@@ -108,7 +108,7 @@ export const Card = ({
     >
       <div className="bg-gray-100 h-full w-full rounded-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4 overflow-y-scroll p-4  pt-28">
         {users.map((user, idx: number) => (
-          <Link href={user.link}>
+          <Link key={user.github} href={user.link}>
             <motion.div
               key={`user-${idx}`}
               className="bg-white rounded-md cursor-pointer relative sm:w-[16rem]"
