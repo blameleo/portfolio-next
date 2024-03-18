@@ -74,7 +74,7 @@ export const Card = ({
       )}
     >
       <div className="relative z-50">
-        <div className="p-4">{children}</div>
+        <div className="py-4 px-20">{children}</div>
       </div>
     </div>
   );
