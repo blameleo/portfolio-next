@@ -24,117 +24,68 @@ export function Projects() {
 
 export const users = [
   {
-    name: "Manu Arora",
-    designation: "Founder, Algochurn",
-    image: "https://picsum.photos/id/10/300/300",
-    badge: "Mentor",
+    name: " ",
+    designation: "Ndc good governance card",
+    image: "/projectimage.png",
+    badge: "Github",
+    link: "https://www.ndcgoodgovernancecard.com",
+    github: ""
   },
   {
-    name: "Sarah Singh",
-    designation: "Founder, Sarah's Kitchen",
-    image: "https://picsum.photos/id/11/300/300",
-    badge: "Mentor",
+    name: " ",
+    designation: "Freetown rentals",
+    image: "/projectimage2.png",
+    badge: "Github",
+    link: "https://freetownrentals.com/",
+    github: "https://github.com/blameleo/fuserentals"
   },
   {
-    name: "John Doe",
-    designation: "Software Engineer, Tech Corp",
-    image: "https://picsum.photos/id/12/300/300",
-    badge: "Mentor",
+    name: " ",
+    designation: "Beehouse job search app",
+    image: "/projectimage3.png",
+    badge: "Github",
+    link: "https://beehouse-app-frontend.vercel.app",
+    github: "https://github.com/blameleo/beehouse-app"
   },
   {
-    name: "Jane Smith",
-    designation: "Product Manager, Innovate Inc",
-    image: "https://picsum.photos/id/13/300/300",
-    badge: "Mentor",
+    name: " ",
+    designation: "Future ocean leaders academy",
+    image: "/projectimage4.png",
+    badge: "Github",
+    link: "https://ghana-ocean-literacy-academy.vercel.app/",
+    github: "https://github.com/blameleo/Ghana-Ocean-Literacy-Academy-"
   },
   {
-    name: "Robert Johnson",
-    designation: "Data Scientist, DataWorks",
-    image: "https://picsum.photos/id/14/300/300",
-    badge: "Mentor",
+    name: " ",
+    designation: "Calendly clone",
+    image: "/projectimage5.png",
+    badge: "Github",
+    link: "https://magnificent-bubblegum-266b76.netlify.app/",
+    github: "https://github.com/blameleo/calendly"
   },
   {
-    name: "Emily Davis",
-    designation: "UX Designer, DesignHub",
-    image: "https://picsum.photos/id/15/300/300",
-    badge: "Mentor",
+    name: " ",
+    designation: "Dictionary app",
+    image: "/projectimage6.png",
+    badge: "Github",
+    link: "https://dictionary-app-two-ashy.vercel.app/",
+    github: "https://github.com/blameleo/dictionary-app"
   },
   {
-    name: "Michael Miller",
-    designation: "CTO, FutureTech",
-    image: "https://picsum.photos/id/16/300/300",
-    badge: "Mentor",
+    name: " ",
+    designation: "Countries app",
+    image: "/projectimage7.png",
+    badge: "Github",
+    link: "https://countries-api-app-sooty.vercel.app/",
+    github: "https://github.com/blameleo/countries_api_app"
   },
   {
-    name: "Sarah Brown",
-    designation: "CEO, StartUp",
-    image: "https://picsum.photos/id/17/300/300",
+    name: " ",
+    designation: "Devjobs app",
+    image: "/projectimage8.png",
+    badge: "Github",
+    link: "https://devjobsleo.netlify.app/",
+    github: "https://github.com/blameleo/devjob-app"
   },
-  {
-    name: "James Wilson",
-    designation: "DevOps Engineer, CloudNet",
-    image: "https://picsum.photos/id/18/300/300",
-    badge: "Something",
-  },
-  {
-    name: "Patricia Moore",
-    designation: "Marketing Manager, MarketGrowth",
-    image: "https://picsum.photos/id/19/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Richard Taylor",
-    designation: "Frontend Developer, WebSolutions",
-    image: "https://picsum.photos/id/20/300/300",
-  },
-  {
-    name: "Linda Anderson",
-    designation: "Backend Developer, ServerSecure",
-    image: "https://picsum.photos/id/21/300/300",
-  },
-  {
-    name: "William Thomas",
-    designation: "Full Stack Developer, FullStack",
-    image: "https://picsum.photos/id/22/300/300",
-    badge: "Badger",
-  },
-  {
-    name: "Elizabeth Jackson",
-    designation: "Project Manager, ProManage",
-    image: "https://picsum.photos/id/23/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "David White",
-    designation: "Database Administrator, DataSafe",
-    image: "https://picsum.photos/id/24/300/300",
-    badge: "Advocate",
-  },
-  {
-    name: "Jennifer Harris",
-    designation: "Network Engineer, NetConnect",
-    image: "https://picsum.photos/id/25/300/300",
-  },
-  {
-    name: "Charles Clark",
-    designation: "Security Analyst, SecureIT",
-    image: "https://picsum.photos/id/26/300/300",
-  },
-  {
-    name: "Susan Lewis",
-    designation: "Systems Analyst, SysAnalyse",
-    image: "https://picsum.photos/id/27/300/300",
-  },
-  {
-    name: "Joseph Young",
-    designation: "Mobile Developer, AppDev",
-    image: "https://picsum.photos/id/28/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Margaret Hall",
-    designation: "Quality Assurance, BugFree",
-    image: "https://picsum.photos/id/29/300/300",
-    badge: "Developer",
-  },
+  
 ];

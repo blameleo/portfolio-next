@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
+import Link from "next/link";
 
 export const ContainerScroll = ({
   users,
@@ -9,7 +10,9 @@ export const ContainerScroll = ({
   users: {
     name: string;
     designation: string;
+    link: string;
     image: string;
+    github: string
     badge?: string;
   }[];
   titleComponent: string | React.ReactNode;
@@ -86,7 +89,9 @@ export const Card = ({
   translate: any;
   users: {
     name: string;
+    link: string;
     designation: string;
+    github: string
     image: string;
     badge?: string;
   }[];
@@ -101,30 +106,32 @@ export const Card = ({
       }}
       className="max-w-5xl sm:-mt-2 -mt-24 mx-auto h-[30rem] md:h-[40rem] w-full border-4 border-[#6C6C6C] p-6 bg-[#222222] rounded-[30px] shadow-2xl "
     >
-      <div className="bg-gray-100 h-full w-full rounded-2xl grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 overflow-y-scroll p-4 ">
+      <div className="bg-gray-100 h-full w-full rounded-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4 overflow-y-scroll p-4  pt-28">
         {users.map((user, idx: number) => (
-          <motion.div
-            key={`user-${idx}`}
-            className="bg-white rounded-md cursor-pointer relative"
-            style={{ translateY: translate }}
-            whileHover={{
-              boxShadow:
-                "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
-            }}
-          >
-            <div className="absolute top-2 right-2 rounded-full text-xs font-bold bg-white px-2 py-1">
-              {user.badge}
-            </div>
-            <img
-              src={user.image}
-              className="rounded-tr-md rounded-tl-md text-sm "
-              alt="thumbnail"
-            />
-            <div className="p-4">
-              <h1 className="font-semibold text-sm ">{user.name}</h1>
-              <h2 className=" text-gray-500 text-xs ">{user.designation}</h2>
-            </div>
-          </motion.div>
+          <Link href={user.link}>
+            <motion.div
+              key={`user-${idx}`}
+              className="bg-white rounded-md cursor-pointer relative sm:w-[16rem]"
+              style={{ translateY: translate }}
+              whileHover={{
+                boxShadow:
+                  "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+              }}
+            >
+              <Link href={user.github} className="absolute top-2 right-2 rounded-full text-xs text-black font-bold bg-white px-2 py-1">
+                {user.badge}
+              </Link>
+              <img
+                src={user.image}
+                className="rounded-tr-md rounded-tl-md text-sm "
+                alt="thumbnail"
+              />
+              <div className="p-4">
+                <h1 className="font-semibold text-sm ">{user.name}</h1>
+                <h2 className=" text-gray-500 text-xs ">{user.designation}</h2>
+              </div>
+            </motion.div>
+          </Link>
         ))}
       </div>
     </motion.div>
