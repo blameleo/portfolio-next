@@ -7,7 +7,7 @@ export function MacbookScrollDemo() {
     <div className="overflow-hidden bg-black  w-full ">
       <MacbookScroll
         title={
-          <span className="sm:text-5xl  text-4xl">
+          <span className="sm:text-5xl  text-4xl text-white">
             Nice to meet you. <br /> I am <span className="border-b-[0.5rem] border-yellow-500">leonard adjei</span> .
           </span>
         }
