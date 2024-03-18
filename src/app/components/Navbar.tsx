@@ -70,7 +70,7 @@ export function Navbar({ className }: { className?: string }) {
             item="Projects"
             link="https://www.facebook.com"
           >
-            <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+            {/* <div className="  text-sm grid grid-cols-2 gap-10 p-4">
               <ProductItem
                 title="Algochurn"
                 href="https://algochurn.com"
@@ -95,22 +95,24 @@ export function Navbar({ className }: { className?: string }) {
                 src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
                 description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
               />
-            </div>
+            </div> */}
           </MenuItem>
         </Link>
-        <MenuItem
-          setActive={setActive}
-          active={active}
-          item="Contact"
-          link="https://www.google.com"
-        >
-          {/* <div className="flex flex-col space-y-4 text-sm">
+        <Link to="contact" smooth={true} duration={500}>
+          <MenuItem
+            setActive={setActive}
+            active={active}
+            item="Contact"
+            link="https://www.google.com"
+          >
+            {/* <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/hobby">Hobby</HoveredLink>
             <HoveredLink href="/individual">Individual</HoveredLink>
             <HoveredLink href="/team">Team</HoveredLink>
             <HoveredLink href="/enterprise">Enterprise</HoveredLink>
           </div> */}
-        </MenuItem>
+          </MenuItem>
+        </Link>
       </Menu>
     </div>
   );
