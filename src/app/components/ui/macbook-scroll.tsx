@@ -68,20 +68,16 @@ export const MacbookScroll = ({
   return (
     <div
       ref={ref}
-      className="sm:min-h-[200vh] min-h-[100vh]  flex flex-col items-center py-0 md:py-40 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.5] sm:scale-50"
+      className="sm:min-h-[200vh]   flex flex-col items-center py-0 md:py-40 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.5] sm:scale-50"
     >
       <motion.h2
         style={{
           translateY: textTransform,
           opacity: textOpacity,
         }}
-        className="text-white  text-3xl font-bold mb-20 text-center"
+        className="text-white font-bold mb-20 text-center leading-10"
       >
-        {title || (
-          <span>
-            This Macbook is built with Tailwindcss. <br /> No kidding.
-          </span>
-        )}
+        {title}
       </motion.h2>
       {/* Lid */}
       <Lid
@@ -169,7 +165,7 @@ export const Lid = ({
           src={src as string}
           alt="aceternity logo"
           fill
-          className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full"
+          className="object-contain object-left-top absolute rounded-lg inset-0 h-full w-full bg-[#fed23d]"
         />
       </motion.div>
     </div>

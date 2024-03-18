@@ -7,7 +7,7 @@ import { TbApi } from "react-icons/tb";
 
 export function Skills() {
   return (
-    <div id="skills" className="max-w-5xl mx-auto px-8">
+    <div id="skills" className="max-w-5xl mx-auto px-8 bg-">
       <h1 className="text-4xl font-semibold  text-white text-center pt-10">
         <span className="text-4xl md:text-[6rem] font-bold my-1 leading-none">
           Skills

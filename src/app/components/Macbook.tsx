@@ -4,18 +4,14 @@ import Link from "next/link";
 
 export function MacbookScrollDemo() {
   return (
-    <div className="overflow-hidden bg-black  w-full ">
+    <div className="overflow-hidden bg-black  w-full  ">
       <MacbookScroll
         title={
-          <span className="sm:text-5xl  text-4xl text-white">
+          <span className="sm:text-5xl  text-4xl  ">
             Nice to meet you. <br /> I am <span className="border-b-[0.5rem] border-yellow-500">leonard adjei</span> .
           </span>
         }
-        badge={
-          <Link href="https://peerlist.io/manuarora">
-            <Badge className="h-10 w-10 transform -rotate-12" />
-          </Link>
-        }
+   
         src={`/heroimage.png`}
         showGradient={false}
       />
