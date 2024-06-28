@@ -1,4 +1,5 @@
 //@ts-nocheck
+"use client"
 import { IoLogoJavascript } from "react-icons/io";
 import { HoverEffect } from "../components/ui/card-hover-effect";
 import { FaCss3Alt, FaHtml5 } from "react-icons/fa6";

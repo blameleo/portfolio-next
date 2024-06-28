@@ -2,7 +2,7 @@
 import React from "react";
 import { ContainerScroll } from "./ui/container-scroll-animation";
 
-export function Projects() {
+export function   Projects() {
   return (
     <div id="projects" className="flex flex-col overflow-hidden">
       <ContainerScroll
@@ -23,6 +23,14 @@ export function Projects() {
 }
 
 export const users = [
+  {
+    name: " ",
+    designation: "Feedback App",
+    image: "/projectimage1.png",
+    badge: "Github",
+    link: "https://feedback-leo.vercel.app/",
+    github: "https://github.com/leonardeganow/feedback"
+  },
   {
     name: " ",
     designation: "Ndc good governance card",
