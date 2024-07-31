@@ -1,10 +1,7 @@
 //@ts-nocheck
-"use client"
-import { IoLogoJavascript } from "react-icons/io";
+"use client";
 import { HoverEffect } from "../components/ui/card-hover-effect";
-import { FaCss3Alt, FaHtml5 } from "react-icons/fa6";
-import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
-import { TbApi } from "react-icons/tb";
+import { projects, skills } from "./skillsData";
 
 export function Skills() {
   return (
@@ -14,39 +11,7 @@ export function Skills() {
           Skills
         </span>
       </h1>
-      <HoverEffect items={projects} />
+      <HoverEffect items={skills} />
     </div>
   );
 }
-export const projects = [
-  {
-    title: "Html",
-    description: <FaHtml5 size={80} className=" text-yellow-500" />,
-    link: "",
-  },
-  {
-    title: "Css",
-    description: <FaCss3Alt size={80} className=" text-yellow-500" />,
-    link: "https://netflix.com",
-  },
-  {
-    title: "Javascript",
-    description: <IoLogoJavascript size={80} className=" text-yellow-500" />,
-    link: "https://google.com",
-  },
-  {
-    title: "Next js",
-    description: <SiNextdotjs size={80} className=" text-yellow-500" />,
-    link: "https://meta.com",
-  },
-  {
-    title: "Tailwindcss",
-    description: <SiTailwindcss size={80} className=" text-yellow-500" />,
-    link: "https://amazon.com",
-  },
-  {
-    title: "Rest & Grpc Api",
-    description: <TbApi size={80} className=" text-yellow-500" />,
-    link: "https://microsoft.com",
-  },
-];
