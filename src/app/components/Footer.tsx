@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { SiGithub, SiGmail, SiLinkedin, SiWhatsapp } from "react-icons/si";
 import { FaLaptopCode } from "react-icons/fa";

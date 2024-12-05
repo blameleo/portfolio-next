@@ -1,0 +1,77 @@
+"use client";
+
+export const projects = [
+  {
+    name: " ",
+    designation: "",
+    image: "/projectimage10.png",
+    badge: "Github",
+    link: "https://quickmart-leo.vercel.app/",
+    github: "https://github.com/leonardeganow/supermart-sales-pos-1",
+  },
+  {
+    name: " ",
+    designation: "Wemust Real Estate",
+    image: "/projectimage9.png",
+    badge: "Github",
+    link: "https://www.wemustghana.com/",
+    github: "https://github.com/eganowvercel/wemust-real-estate",
+  },
+  {
+    name: " ",
+    designation: "Feedback App",
+    image: "/projectimage1.png",
+    badge: "Github",
+    link: "https://feedback-leo.vercel.app/",
+    github: "https://github.com/leonardeganow/feedback",
+  },
+  {
+    name: " ",
+    designation: "Ndc good governance card",
+    image: "/projectimage.png",
+    badge: "Github",
+    link: "https://www.ndcgoodgovernancecard.com",
+    github: "",
+  },
+  {
+    name: " ",
+    designation: "Freetown rentals",
+    image: "/projectimage2.png",
+    badge: "Github",
+    link: "https://freetownrentals.com/",
+    github: "https://github.com/blameleo/fuserentals",
+  },
+  {
+    name: " ",
+    designation: "Beehouse job search app",
+    image: "/projectimage3.png",
+    badge: "Github",
+    link: "https://beehouse-app-frontend.vercel.app",
+    github: "https://github.com/blameleo/beehouse-app",
+  },
+  {
+    name: " ",
+    designation: "Future ocean leaders academy",
+    image: "/projectimage4.png",
+    badge: "Github",
+    link: "https://ghana-ocean-literacy-academy.vercel.app/",
+    github: "https://github.com/blameleo/Ghana-Ocean-Literacy-Academy-",
+  },
+
+  {
+    name: " ",
+    designation: "Dictionary app",
+    image: "/projectimage6.png",
+    badge: "Github",
+    link: "https://dictionary-app-two-ashy.vercel.app/",
+    github: "https://github.com/blameleo/dictionary-app",
+  },
+  {
+    name: " ",
+    designation: "Countries app",
+    image: "/projectimage7.png",
+    badge: "Github",
+    link: "https://countries-api-app-sooty.vercel.app/",
+    github: "https://github.com/blameleo/countries_api_app",
+  },
+];

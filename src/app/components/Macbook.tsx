@@ -1,6 +1,6 @@
+"use client";
 import React from "react";
 import { MacbookScroll } from "./ui/macbook-scroll";
-import Link from "next/link";
 
 export function MacbookScrollDemo() {
   return (
@@ -8,10 +8,13 @@ export function MacbookScrollDemo() {
       <MacbookScroll
         title={
           <span className="sm:text-5xl  text-4xl  ">
-            Nice to meet you. <br /> I am <span className="border-b-[0.5rem] border-yellow-500">leonard adjei</span> .
+            Nice to meet you. <br /> I am{" "}
+            <span className="border-b-[0.5rem] border-yellow-500">
+              leonard adjei
+            </span>{" "}
+            .
           </span>
         }
-   
         src={`/heroimage.png`}
         showGradient={false}
       />
